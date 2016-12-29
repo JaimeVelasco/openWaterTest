@@ -1,0 +1,81 @@
+body {
+  font-family: Arial, Helvetica, sans-serif!important;
+}
+
+.container {
+  width: 973px;
+}
+
+.topBar {
+  background-color: #001C40;
+  height: 43px;
+}
+
+.topBar .nav {
+  background-color: transparent;
+  height: 43px;
+}
+
+.nav > .container {
+  width: 973px !important;
+}
+
+a.nav-item {
+  padding: 0 7pt;
+  color: white !important;
+  font-weight: bold;
+  line-height: .5;
+  font-size: 11px;
+  position: relative;
+  bottom: 8px;
+}
+
+.separator {
+  position: relative;
+  top: 6px;
+}
+
+.columns {
+  margin-top: 0px!important;
+}
+
+#search input {
+  padding: 3px;
+  border-radius: 0px;
+  width: 300px;
+  height: 18px;
+  position: absolute;
+  right: 1em;
+  top: 2em;
+}
+
+.control.has-icon.has-icon-right > .fa {
+  color: black;
+  top: 1.7em;
+  right: 1em !important;
+  border-right: 1px solid lightgray;
+  transform: scaleX(-1);
+  -moz-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  -ms-transform: scaleX(-1)
+}
+
+.main {
+  background: transparent url(https://na.theiia.org/style%20library/IIA/images/NA/bkgdHeader.gif) repeat-x 0 43px;
+  height: 156px;
+}
+
+.logo {
+  background: transparent url(https://na.theiia.org/style%20library/IIA/images/NA/logoNA.png) no-repeat 5px 15px;
+  height: 156px;
+}
+
+.headerBar {
+  background-color: transparent;
+  background: transparent url(https://na.theiia.org/style%20library/IIA/images/NA/bkgdLogo.png) repeat-x 0 0;
+  min-height: 150px;
+}
+
+.titleBar {
+  height: 152px;
+}
